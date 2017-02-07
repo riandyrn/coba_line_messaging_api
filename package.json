@@ -4,7 +4,8 @@
   "description": "try to use LINE messaging API",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "line-messaging": "^1.1.8"
   },
   "devDependencies": {},
   "scripts": {
