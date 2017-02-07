@@ -17,8 +17,8 @@ app.use(bot.webhook('/webhook'));
 
 bot.on(LINEBot.Events.MESSAGE, function(replyToken, message){
     
-    console.log("replyToken: " + replyToken);
-    console.log("message: " + message);
+    console.log("replyToken: " + JSON.stringify(replyToken));
+    console.log("message: " + JSON.stringify(message));
 });
 
 http.listen(port);
